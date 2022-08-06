@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+  background-color:#46529d;
+  color: #FFF;
+}
+.container {
+  width: 60%;
+  margin:10px auto;
+}
+.text-center {
+  text-align: center;
+}
+.listitem {
+  background-color: #FFF;
+  color: #46529d;
+
+}
+.listitem p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px;
+  color: #2ebaee;
+}
+.listitem span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0 ;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+.listitem span.title {
+  background-color: #2ebaee;
+  color: #FFF;
+}
+.listitem span.name , 
+form input[id='name'] {
+  width: 60%;
+}
+.listitem span.age , 
+form input[id='age'] {
+  width: 30%;
+}
+.listitem span.action , 
+form input[type='submit'] {
+  width: 10%;
+}
+.listitem span.icon {
+  color: #F00;
+  cursor: pointer;
+}
+form input {
+  padding: 9px 0 9px 6px;
+  outline: none;
+  border: 0.3px solid #ccc;
+  background-color: #ebebeb;
+}
+
+form input[type='submit'] {
+  padding: 9px 0 9px 2px;
+  outline: none;
+  background-color: #2ebaee;
+  border: 0.3px solid #2ebaee;
+  color: #FFF;
+  cursor: pointer;
+}
